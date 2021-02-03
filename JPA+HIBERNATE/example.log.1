@@ -1,0 +1,838 @@
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 402880457539c1b5017539c1b61a0000 (unnamed)
+INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: project_lp2a4.aluno
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [idade, matricula, nome, id]
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 16029917979
+DEBUG main org.hibernate.transaction.JDBCTransaction - begin
+DEBUG main org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+DEBUG main org.hibernate.transaction.JDBCTransaction - current autocommit status: true
+DEBUG main org.hibernate.transaction.JDBCTransaction - disabling autocommit
+DEBUG main org.hibernate.jdbc.JDBCContext - after transaction begin
+DEBUG main org.hibernate.engine.query.QueryPlanCache - unable to locate HQL query plan in cache; generating (SELECT aluno FROM  aluno)
+INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.3.0.GA
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.5
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.3.1.GA
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Look up for persistence unit: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Analyse of persistence.xml: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml
+DEBUG main org.hibernate.util.DTDEntityResolver - trying to resolve system-id [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd]
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - recognized EJB3 ORM namespace; attempting to resolve on classpath under org/hibernate/ejb
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - located [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd] in classpath
+DEBUG main org.hibernate.ejb.packaging.PersistenceXmlLoader - Persistent Unit name from persistence.xml: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - PersistenceMetadata [
+	name: aluno
+	jtaDataSource: null
+	nonJtaDataSource: null
+	transactionType: RESOURCE_LOCAL
+	provider: org.hibernate.ejb.HibernatePersistence
+	classes[
+		Aluno	]
+	packages[
+	]
+	mappingFiles[
+	]
+	jarFiles[
+	]
+	hbmfiles: 0
+	properties[
+		hibernate.connection.driver_class: com.mysql.cj.jdbc.Driver
+		use_sql_comments: true
+		hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+		hibernate.connection.user: root
+		hibernate.format_sql: true
+		hibernate.hbm2ddl.auto: update
+		hibernate.archive.autodetection: class
+		hibernate.connection.url: jdbc:mysql://localhost:3306/project_lp2a4
+		hibernate.show_sql: true
+		hibernate.connection.password: 
+	]]
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - JAR URL from URL Entry: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml >> file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Searching mapped entities in jar/par: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Java element filter matched for Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: AlunoController
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Teste
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Creating Factory: aluno
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Aluno
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column DTYPE unique false
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name=Aluno
+INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Aluno on table aluno
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno property annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno field annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.id
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column id unique false
+DEBUG main org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading id with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.idade
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column idade unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property idade with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading idade with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.matricula
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column matricula unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property matricula with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading matricula with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.nome
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column nome unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property nome with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading nome with null
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+INFO main org.hibernate.validator.Version - Hibernate Validator 3.0.0.GA
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+DEBUG main org.hibernate.ejb.util.NamingHelper - No JNDI name configured for binding Ejb3Configuration
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Search not present in classpath, ignoring event listener registration
+DEBUG main org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/project_lp2a4
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=, autocommit=true, release_mode=auto}
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - opening new JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - created connection to: jdbc:mysql://localhost:3306/project_lp2a4, Isolation Level: 4
+INFO main org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.5.5-10.4.14-MariaDB
+INFO main org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL Connector/J, version: mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+INFO main org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Cache provider: org.hibernate.cache.NoCacheProvider
+INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+DEBUG main org.hibernate.exception.SQLExceptionConverterFactory - Using dialect defined converter
+INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/project_lp2a4, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.ejb.discard_pc_on_close=false, use_sql_comments=true, hibernate.transaction.flush_before_completion=false, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_261-b12, hibernate.connection.autocommit=true, user.name=Pichau, hibernate.connection.release_mode=auto, user.language=pt, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_261\bin, java.version=1.8.0_261, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_261\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=52.0, user.country=BR, java.home=C:\Program Files\Java\jre1.8.0_261, java.vm.info=mixed mode, os.version=10.0, hibernate.transaction.factory_class=org.hibernate.transaction.JDBCTransactionFactory, hibernate.query.jpaql_strict_compliance=true, path.separator=;, java.vm.version=25.261-b12, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\Pichau, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;"C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;";C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Pichau\AppData\Local\Microsoft\WindowsApps;C:\Users\Pichau\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;;C:\WINDOWS\system32;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, hibernate.connection.user=root, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.archive.autodetection=class, sun.java.command=Teste, java.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\zipfs.jar;C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE\bin;C:\Users\Pichau\Downloads\postgresql-9.4-1200-jdbc41.jar;C:\Users\Pichau\Downloads\ejb3-persistence.jar;C:\Users\Pichau\Downloads\hibernate-annotations.jar;C:\Users\Pichau\Downloads\hibernate-commons-annotations.jar;C:\Users\Pichau\Downloads\hibernate-entitymanager.jar;C:\Users\Pichau\Downloads\hibernate-validator.jar;C:\Users\Pichau\Downloads\jboss-archive-browsing.jar;C:\Users\Pichau\Downloads\antlr-2.7.6.jar;C:\Users\Pichau\Downloads\c3p0-0.9.1.2.jar;C:\Users\Pichau\Downloads\cglib-nodep-2.1_3.jar;C:\Users\Pichau\Downloads\dom4j-1.6.1.jar;C:\Users\Pichau\Downloads\jta.jar;C:\Users\Pichau\Downloads\log4j-1.2.11.jar;C:\Users\Pichau\Downloads\hibernate3.jar;C:\Users\Pichau\Downloads\javassist.jar;C:\Users\Pichau\Downloads\commons-collections-2.1.1.jar;C:\Users\Pichau\Downloads\commons-logging-1.0.4.jar;C:\Users\Pichau\Downloads\mysql-connector-java-8.0.21.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\Pichau\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=Cp1252, hibernate.use_identifier_rollback=false, java.specification.version=1.8, hibernate.show_sql=true}
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: Aluno
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from aluno where id =?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select aluno_.id, aluno_.idade as idade0_, aluno_.matricula as matricula0_, aluno_.nome as nome0_ from aluno aluno_ where aluno_.id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into aluno (idade, matricula, nome, id) values (?, ?, ?, ?)
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update aluno set idade=?, matricula=?, nome=? where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from aluno where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into aluno (idade, matricula, nome) values (?, ?, ?)
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 402880457539c275017539c276030000 (unnamed)
+INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: project_lp2a4.aluno
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [idade, matricula, nome, id]
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 16029918470
+DEBUG main org.hibernate.transaction.JDBCTransaction - begin
+DEBUG main org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+DEBUG main org.hibernate.transaction.JDBCTransaction - current autocommit status: true
+DEBUG main org.hibernate.transaction.JDBCTransaction - disabling autocommit
+DEBUG main org.hibernate.jdbc.JDBCContext - after transaction begin
+DEBUG main org.hibernate.engine.query.QueryPlanCache - unable to locate HQL query plan in cache; generating (SELECT * FROM  aluno)
+INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.3.0.GA
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.5
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.3.1.GA
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Look up for persistence unit: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Analyse of persistence.xml: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml
+DEBUG main org.hibernate.util.DTDEntityResolver - trying to resolve system-id [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd]
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - recognized EJB3 ORM namespace; attempting to resolve on classpath under org/hibernate/ejb
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - located [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd] in classpath
+DEBUG main org.hibernate.ejb.packaging.PersistenceXmlLoader - Persistent Unit name from persistence.xml: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - PersistenceMetadata [
+	name: aluno
+	jtaDataSource: null
+	nonJtaDataSource: null
+	transactionType: RESOURCE_LOCAL
+	provider: org.hibernate.ejb.HibernatePersistence
+	classes[
+		Aluno	]
+	packages[
+	]
+	mappingFiles[
+	]
+	jarFiles[
+	]
+	hbmfiles: 0
+	properties[
+		hibernate.connection.driver_class: com.mysql.cj.jdbc.Driver
+		use_sql_comments: true
+		hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+		hibernate.connection.user: root
+		hibernate.format_sql: true
+		hibernate.hbm2ddl.auto: update
+		hibernate.archive.autodetection: class
+		hibernate.connection.url: jdbc:mysql://localhost:3306/project_lp2a4
+		hibernate.show_sql: true
+		hibernate.connection.password: 
+	]]
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - JAR URL from URL Entry: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml >> file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Searching mapped entities in jar/par: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Java element filter matched for Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: AlunoController
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Teste
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Creating Factory: aluno
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Aluno
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column DTYPE unique false
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name=Aluno
+INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Aluno on table aluno
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno property annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno field annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.id
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column id unique false
+DEBUG main org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading id with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.idade
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column idade unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property idade with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading idade with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.matricula
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column matricula unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property matricula with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading matricula with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.nome
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column nome unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property nome with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading nome with null
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+INFO main org.hibernate.validator.Version - Hibernate Validator 3.0.0.GA
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+DEBUG main org.hibernate.ejb.util.NamingHelper - No JNDI name configured for binding Ejb3Configuration
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Search not present in classpath, ignoring event listener registration
+DEBUG main org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/project_lp2a4
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=, autocommit=true, release_mode=auto}
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - opening new JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - created connection to: jdbc:mysql://localhost:3306/project_lp2a4, Isolation Level: 4
+INFO main org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.5.5-10.4.14-MariaDB
+INFO main org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL Connector/J, version: mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+INFO main org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Cache provider: org.hibernate.cache.NoCacheProvider
+INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+DEBUG main org.hibernate.exception.SQLExceptionConverterFactory - Using dialect defined converter
+INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/project_lp2a4, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.ejb.discard_pc_on_close=false, use_sql_comments=true, hibernate.transaction.flush_before_completion=false, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_261-b12, hibernate.connection.autocommit=true, user.name=Pichau, hibernate.connection.release_mode=auto, user.language=pt, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_261\bin, java.version=1.8.0_261, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_261\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=52.0, user.country=BR, java.home=C:\Program Files\Java\jre1.8.0_261, java.vm.info=mixed mode, os.version=10.0, hibernate.transaction.factory_class=org.hibernate.transaction.JDBCTransactionFactory, hibernate.query.jpaql_strict_compliance=true, path.separator=;, java.vm.version=25.261-b12, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\Pichau, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;"C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;";C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Pichau\AppData\Local\Microsoft\WindowsApps;C:\Users\Pichau\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;;C:\WINDOWS\system32;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, hibernate.connection.user=root, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.archive.autodetection=class, sun.java.command=Teste, java.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\zipfs.jar;C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE\bin;C:\Users\Pichau\Downloads\postgresql-9.4-1200-jdbc41.jar;C:\Users\Pichau\Downloads\ejb3-persistence.jar;C:\Users\Pichau\Downloads\hibernate-annotations.jar;C:\Users\Pichau\Downloads\hibernate-commons-annotations.jar;C:\Users\Pichau\Downloads\hibernate-entitymanager.jar;C:\Users\Pichau\Downloads\hibernate-validator.jar;C:\Users\Pichau\Downloads\jboss-archive-browsing.jar;C:\Users\Pichau\Downloads\antlr-2.7.6.jar;C:\Users\Pichau\Downloads\c3p0-0.9.1.2.jar;C:\Users\Pichau\Downloads\cglib-nodep-2.1_3.jar;C:\Users\Pichau\Downloads\dom4j-1.6.1.jar;C:\Users\Pichau\Downloads\jta.jar;C:\Users\Pichau\Downloads\log4j-1.2.11.jar;C:\Users\Pichau\Downloads\hibernate3.jar;C:\Users\Pichau\Downloads\javassist.jar;C:\Users\Pichau\Downloads\commons-collections-2.1.1.jar;C:\Users\Pichau\Downloads\commons-logging-1.0.4.jar;C:\Users\Pichau\Downloads\mysql-connector-java-8.0.21.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\Pichau\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=Cp1252, hibernate.use_identifier_rollback=false, java.specification.version=1.8, hibernate.show_sql=true}
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: Aluno
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from aluno where id =?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select aluno_.id, aluno_.idade as idade0_, aluno_.matricula as matricula0_, aluno_.nome as nome0_ from aluno aluno_ where aluno_.id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into aluno (idade, matricula, nome, id) values (?, ?, ?, ?)
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update aluno set idade=?, matricula=?, nome=? where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from aluno where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into aluno (idade, matricula, nome) values (?, ?, ?)
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 402880457539c519017539c51c970000 (unnamed)
+INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: project_lp2a4.aluno
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [idade, matricula, nome, id]
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 16029920207
+DEBUG main org.hibernate.transaction.JDBCTransaction - begin
+DEBUG main org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+DEBUG main org.hibernate.transaction.JDBCTransaction - current autocommit status: true
+DEBUG main org.hibernate.transaction.JDBCTransaction - disabling autocommit
+DEBUG main org.hibernate.jdbc.JDBCContext - after transaction begin
+DEBUG main org.hibernate.engine.query.QueryPlanCache - unable to locate HQL query plan in cache; generating (SELECT FROM aluno)
+INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.3.0.GA
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.5
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.3.1.GA
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Look up for persistence unit: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Analyse of persistence.xml: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml
+DEBUG main org.hibernate.util.DTDEntityResolver - trying to resolve system-id [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd]
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - recognized EJB3 ORM namespace; attempting to resolve on classpath under org/hibernate/ejb
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - located [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd] in classpath
+DEBUG main org.hibernate.ejb.packaging.PersistenceXmlLoader - Persistent Unit name from persistence.xml: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - PersistenceMetadata [
+	name: aluno
+	jtaDataSource: null
+	nonJtaDataSource: null
+	transactionType: RESOURCE_LOCAL
+	provider: org.hibernate.ejb.HibernatePersistence
+	classes[
+		Aluno	]
+	packages[
+	]
+	mappingFiles[
+	]
+	jarFiles[
+	]
+	hbmfiles: 0
+	properties[
+		hibernate.connection.driver_class: com.mysql.cj.jdbc.Driver
+		use_sql_comments: true
+		hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+		hibernate.connection.user: root
+		hibernate.format_sql: true
+		hibernate.hbm2ddl.auto: update
+		hibernate.archive.autodetection: class
+		hibernate.connection.url: jdbc:mysql://localhost:3306/project_lp2a4
+		hibernate.show_sql: true
+		hibernate.connection.password: 
+	]]
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - JAR URL from URL Entry: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml >> file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Searching mapped entities in jar/par: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Java element filter matched for Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: AlunoController
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Teste
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Creating Factory: aluno
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Aluno
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column DTYPE unique false
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name=Aluno
+INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Aluno on table aluno
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno property annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno field annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.id
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column id unique false
+DEBUG main org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading id with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.idade
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column idade unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property idade with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading idade with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.matricula
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column matricula unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property matricula with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading matricula with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.nome
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column nome unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property nome with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading nome with null
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+INFO main org.hibernate.validator.Version - Hibernate Validator 3.0.0.GA
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+DEBUG main org.hibernate.ejb.util.NamingHelper - No JNDI name configured for binding Ejb3Configuration
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Search not present in classpath, ignoring event listener registration
+DEBUG main org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/project_lp2a4
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=, autocommit=true, release_mode=auto}
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - opening new JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - created connection to: jdbc:mysql://localhost:3306/project_lp2a4, Isolation Level: 4
+INFO main org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.5.5-10.4.14-MariaDB
+INFO main org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL Connector/J, version: mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+INFO main org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Cache provider: org.hibernate.cache.NoCacheProvider
+INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+DEBUG main org.hibernate.exception.SQLExceptionConverterFactory - Using dialect defined converter
+INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/project_lp2a4, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.ejb.discard_pc_on_close=false, use_sql_comments=true, hibernate.transaction.flush_before_completion=false, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_261-b12, hibernate.connection.autocommit=true, user.name=Pichau, hibernate.connection.release_mode=auto, user.language=pt, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_261\bin, java.version=1.8.0_261, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_261\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=52.0, user.country=BR, java.home=C:\Program Files\Java\jre1.8.0_261, java.vm.info=mixed mode, os.version=10.0, hibernate.transaction.factory_class=org.hibernate.transaction.JDBCTransactionFactory, hibernate.query.jpaql_strict_compliance=true, path.separator=;, java.vm.version=25.261-b12, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\Pichau, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;"C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;";C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Pichau\AppData\Local\Microsoft\WindowsApps;C:\Users\Pichau\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;;C:\WINDOWS\system32;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, hibernate.connection.user=root, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.archive.autodetection=class, sun.java.command=Teste, java.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\zipfs.jar;C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE\bin;C:\Users\Pichau\Downloads\postgresql-9.4-1200-jdbc41.jar;C:\Users\Pichau\Downloads\ejb3-persistence.jar;C:\Users\Pichau\Downloads\hibernate-annotations.jar;C:\Users\Pichau\Downloads\hibernate-commons-annotations.jar;C:\Users\Pichau\Downloads\hibernate-entitymanager.jar;C:\Users\Pichau\Downloads\hibernate-validator.jar;C:\Users\Pichau\Downloads\jboss-archive-browsing.jar;C:\Users\Pichau\Downloads\antlr-2.7.6.jar;C:\Users\Pichau\Downloads\c3p0-0.9.1.2.jar;C:\Users\Pichau\Downloads\cglib-nodep-2.1_3.jar;C:\Users\Pichau\Downloads\dom4j-1.6.1.jar;C:\Users\Pichau\Downloads\jta.jar;C:\Users\Pichau\Downloads\log4j-1.2.11.jar;C:\Users\Pichau\Downloads\hibernate3.jar;C:\Users\Pichau\Downloads\javassist.jar;C:\Users\Pichau\Downloads\commons-collections-2.1.1.jar;C:\Users\Pichau\Downloads\commons-logging-1.0.4.jar;C:\Users\Pichau\Downloads\mysql-connector-java-8.0.21.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\Pichau\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=Cp1252, hibernate.use_identifier_rollback=false, java.specification.version=1.8, hibernate.show_sql=true}
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: Aluno
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from aluno where id =?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select aluno_.id, aluno_.idade as idade0_, aluno_.matricula as matricula0_, aluno_.nome as nome0_ from aluno aluno_ where aluno_.id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into aluno (idade, matricula, nome, id) values (?, ?, ?, ?)
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update aluno set idade=?, matricula=?, nome=? where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from aluno where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into aluno (idade, matricula, nome) values (?, ?, ?)
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 402880457539c610017539c610f90000 (unnamed)
+INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: project_lp2a4.aluno
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [idade, matricula, nome, id]
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 16029920832
+DEBUG main org.hibernate.transaction.JDBCTransaction - begin
+DEBUG main org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+DEBUG main org.hibernate.transaction.JDBCTransaction - current autocommit status: true
+DEBUG main org.hibernate.transaction.JDBCTransaction - disabling autocommit
+DEBUG main org.hibernate.jdbc.JDBCContext - after transaction begin
+DEBUG main org.hibernate.engine.query.QueryPlanCache - unable to locate HQL query plan in cache; generating (SELECT aluno FROM aluno)
+INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.3.0.GA
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.5
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.3.1.GA
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Look up for persistence unit: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Analyse of persistence.xml: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml
+DEBUG main org.hibernate.util.DTDEntityResolver - trying to resolve system-id [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd]
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - recognized EJB3 ORM namespace; attempting to resolve on classpath under org/hibernate/ejb
+DEBUG main org.hibernate.cfg.EJB3DTDEntityResolver - located [http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd] in classpath
+DEBUG main org.hibernate.ejb.packaging.PersistenceXmlLoader - Persistent Unit name from persistence.xml: aluno
+DEBUG main org.hibernate.ejb.Ejb3Configuration - PersistenceMetadata [
+	name: aluno
+	jtaDataSource: null
+	nonJtaDataSource: null
+	transactionType: RESOURCE_LOCAL
+	provider: org.hibernate.ejb.HibernatePersistence
+	classes[
+		Aluno	]
+	packages[
+	]
+	mappingFiles[
+	]
+	jarFiles[
+	]
+	hbmfiles: 0
+	properties[
+		hibernate.connection.driver_class: com.mysql.cj.jdbc.Driver
+		use_sql_comments: true
+		hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+		hibernate.connection.user: root
+		hibernate.format_sql: true
+		hibernate.hbm2ddl.auto: update
+		hibernate.archive.autodetection: class
+		hibernate.connection.url: jdbc:mysql://localhost:3306/project_lp2a4
+		hibernate.show_sql: true
+		hibernate.connection.password: 
+	]]
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - JAR URL from URL Entry: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin/META-INF/persistence.xml >> file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Searching mapped entities in jar/par: file:/C:/Users/Pichau/eclipse-workspace/JPA+HIBERNATE/bin
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Java element filter matched for Aluno
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: AlunoController
+DEBUG main org.hibernate.ejb.packaging.JarVisitor - Filtering: Teste
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: false
+DEBUG main org.hibernate.ejb.Ejb3Configuration - Creating Factory: aluno
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Aluno
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column DTYPE unique false
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name=Aluno
+INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Aluno on table aluno
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno property annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing Aluno field annotation
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.id
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column id unique false
+DEBUG main org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading id with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.idade
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column idade unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property idade with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property idade
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading idade with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.matricula
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column matricula unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property matricula with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property matricula
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading matricula with null
+DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of Aluno.nome
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column nome unique false
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property nome with lazy=false
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property nome
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Cascading nome with null
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+INFO main org.hibernate.validator.Version - Hibernate Validator 3.0.0.GA
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+DEBUG main org.hibernate.ejb.util.NamingHelper - No JNDI name configured for binding Ejb3Configuration
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Search not present in classpath, ignoring event listener registration
+DEBUG main org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - processing association property references
+DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/project_lp2a4
+INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=, autocommit=true, release_mode=auto}
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - opening new JDBC connection
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - created connection to: jdbc:mysql://localhost:3306/project_lp2a4, Isolation Level: 4
+INFO main org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.5.5-10.4.14-MariaDB
+INFO main org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL Connector/J, version: mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - returning connection to pool, pool size: 1
+INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+INFO main org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Cache provider: org.hibernate.cache.NoCacheProvider
+INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+DEBUG main org.hibernate.exception.SQLExceptionConverterFactory - Using dialect defined converter
+INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in thread context classloader
+DEBUG main org.hibernate.validator.ClassValidator - ResourceBundle ValidatorMessages not found in Validator classloader. Delegate to org.hibernate.validator.resources.DefaultValidatorMessages
+INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/project_lp2a4, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.ejb.discard_pc_on_close=false, use_sql_comments=true, hibernate.transaction.flush_before_completion=false, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_261-b12, hibernate.connection.autocommit=true, user.name=Pichau, hibernate.connection.release_mode=auto, user.language=pt, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_261\bin, java.version=1.8.0_261, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_261\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=52.0, user.country=BR, java.home=C:\Program Files\Java\jre1.8.0_261, java.vm.info=mixed mode, os.version=10.0, hibernate.transaction.factory_class=org.hibernate.transaction.JDBCTransactionFactory, hibernate.query.jpaql_strict_compliance=true, path.separator=;, java.vm.version=25.261-b12, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\Pichau, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;"C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;";C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Pichau\AppData\Local\Microsoft\WindowsApps;C:\Users\Pichau\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;;C:\WINDOWS\system32;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, hibernate.connection.user=root, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.archive.autodetection=class, sun.java.command=Teste, java.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_261\lib\ext\zipfs.jar;C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE\bin;C:\Users\Pichau\Downloads\postgresql-9.4-1200-jdbc41.jar;C:\Users\Pichau\Downloads\ejb3-persistence.jar;C:\Users\Pichau\Downloads\hibernate-annotations.jar;C:\Users\Pichau\Downloads\hibernate-commons-annotations.jar;C:\Users\Pichau\Downloads\hibernate-entitymanager.jar;C:\Users\Pichau\Downloads\hibernate-validator.jar;C:\Users\Pichau\Downloads\jboss-archive-browsing.jar;C:\Users\Pichau\Downloads\antlr-2.7.6.jar;C:\Users\Pichau\Downloads\c3p0-0.9.1.2.jar;C:\Users\Pichau\Downloads\cglib-nodep-2.1_3.jar;C:\Users\Pichau\Downloads\dom4j-1.6.1.jar;C:\Users\Pichau\Downloads\jta.jar;C:\Users\Pichau\Downloads\log4j-1.2.11.jar;C:\Users\Pichau\Downloads\hibernate3.jar;C:\Users\Pichau\Downloads\javassist.jar;C:\Users\Pichau\Downloads\commons-collections-2.1.1.jar;C:\Users\Pichau\Downloads\commons-logging-1.0.4.jar;C:\Users\Pichau\Downloads\mysql-connector-java-8.0.21.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\Pichau\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\Pichau\eclipse-workspace\JPA+HIBERNATE, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=Cp1252, hibernate.use_identifier_rollback=false, java.specification.version=1.8, hibernate.show_sql=true}
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: Aluno
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from aluno where id =?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select aluno_.id, aluno_.idade as idade0_, aluno_.matricula as matricula0_, aluno_.nome as nome0_ from aluno aluno_ where aluno_.id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into aluno (idade, matricula, nome, id) values (?, ?, ?, ?)
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update aluno set idade=?, matricula=?, nome=? where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from aluno where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into aluno (idade, matricula, nome) values (?, ?, ?)
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=? for update
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity Aluno: select aluno0_.id as id0_0_, aluno0_.idade as idade0_0_, aluno0_.matricula as matricula0_0_, aluno0_.nome as nome0_0_ from aluno aluno0_ where aluno0_.id=?
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 402880457539c8a8017539c8a97f0000 (unnamed)
+INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - total checked-out connections: 0
+DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - using pooled JDBC connection, pool size: 0
+INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing manytoone fk mappings
+DEBUG main org.hibernate.cfg.Configuration - processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - processing collection mappings

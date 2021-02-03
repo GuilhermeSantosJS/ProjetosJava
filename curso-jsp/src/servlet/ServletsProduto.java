@@ -1,0 +1,144 @@
+package servlet;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import beans.Produto;
+import dao.DaoProduto;
+
+@WebServlet("/salvarProduto")
+public class ServletsProduto extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private DaoProduto daoProduto = new DaoProduto();
+
+	public ServletsProduto() {
+		super();
+	}
+
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		try {
+			String acao = request.getParameter("acao") != null ? request.getParameter("acao") : "listartodos";
+			String produto = request.getParameter("produto");
+
+			
+			RequestDispatcher view = request
+					.getRequestDispatcher("/cadastroProduto.jsp");
+			
+			if (acao.equalsIgnoreCase("delete")) {
+				daoProduto.delete(produto);
+				
+				request.setAttribute("produtos", daoProduto.listar());
+				
+				
+			} else if (acao.equalsIgnoreCase("editar")) {
+				Produto beanCursoJsp = daoProduto.consultar(produto);
+				
+				request.setAttribute("produto", beanCursoJsp);
+				
+				
+				
+			} else if (acao.equalsIgnoreCase("listartodos")) {
+
+				request.setAttribute("produtos", daoProduto.listar());
+				
+			}
+			
+			request.setAttribute("categorias", daoProduto.listaCategoria());
+			view.forward(request, response);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+
+		String acao = request.getParameter("acao");
+
+		if (acao != null && acao.equalsIgnoreCase("reset")) {
+			try {
+				RequestDispatcher view = request
+						.getRequestDispatcher("/cadastroProduto.jsp");
+				request.setAttribute("produtos", daoProduto.listar());
+				view.forward(request, response);
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} else {
+
+			String id = request.getParameter("id");
+			String nome = request.getParameter("nome");
+			String quantidade = request.getParameter("quantidade");
+			String valor = request.getParameter("valor");
+			String categoria = request.getParameter("categoria_id");
+
+			Produto produto = new Produto();
+			produto.setId(!id.isEmpty() ? Long.parseLong(id) : null);
+			produto.setNome(nome);
+			produto.setQuantidade(Double.parseDouble(quantidade));
+			produto.setValor(Double.parseDouble(valor));
+			produto.setCategoria_id(Long.parseLong(categoria));
+			try {
+
+				String msg = null;
+				boolean podeInserir = true;
+
+				if (id == null || id.isEmpty() && !daoProduto.validarNome(nome)) {																// NOVO
+					msg = "Produto já existe com o mesmo nome!";
+					podeInserir = false;
+				}
+				
+				if (quantidade != null && !quantidade.isEmpty()) {																// NOVO
+					produto.setQuantidade(Double.parseDouble(quantidade));
+				}
+				
+				if (valor != null && !valor.isEmpty()) {
+					String  valorParse = valor.replaceAll("\\.", "");	
+					valorParse = valorParse.replaceAll("\\,", ".");
+					produto.setValor(Double.parseDouble(valorParse));
+				}
+				
+
+				if (msg != null) {
+					request.setAttribute("msg", msg);
+				}
+
+				if (id == null || id.isEmpty() && daoProduto.validarNome(nome)
+						&& podeInserir) {
+
+					daoProduto.salvar(produto);
+
+				} else if (id != null && !id.isEmpty() && podeInserir) {
+					daoProduto.atualizar(produto);
+				}
+
+				if (!podeInserir) {
+					request.setAttribute("produto", produto);
+				}
+
+				RequestDispatcher view = request
+						.getRequestDispatcher("/cadastroProduto.jsp");
+				request.setAttribute("produtos", daoProduto.listar());
+				request.setAttribute("categorias",  daoProduto.listaCategoria());
+				view.forward(request, response);
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+		}
+
+	}
+
+}

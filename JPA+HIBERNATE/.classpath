@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/postgresql-9.4-1200-jdbc41.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/jboss-archive-browsing.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pichau/Downloads/mysql-connector-java-8.0.21.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
