@@ -1,0 +1,30 @@
+2021-03-04 02:57:56,456 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-1] Acesso ao homepage
+2021-03-04 16:33:11,907 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-1] Acesso ao homepage
+2021-03-04 16:33:27,194 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Entrando na pagina de transações
+2021-03-04 16:34:36,839 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-1] Entrando na pagina de transações
+2021-03-04 16:35:00,581 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-5] Entrando na pagina de transações
+2021-03-04 16:36:06,221 ERROR br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Erro ao salvar a transação
+2021-03-04 16:41:36,316 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-2] Entrando na pagina de transações
+2021-03-04 16:41:41,508 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-4] Entrando na pagina de transações
+2021-03-04 16:42:35,572 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Entrando na pagina de transações
+2021-03-04 16:44:42,169 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-1] Entrando na pagina de transações
+2021-03-04 16:44:45,087 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-3] Entrando na pagina de transações
+2021-03-04 16:45:31,784 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-4] Entrando na pagina de transações
+2021-03-04 16:45:35,805 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-7] Entrando na pagina de transações
+2021-03-04 16:45:47,809 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Entrando na pagina de transações
+2021-03-04 16:48:23,300 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-1] Entrando na pagina de transações
+2021-03-04 16:50:15,975 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-4] Entrando na pagina de transações
+2021-03-04 16:50:49,648 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-5] Entrando na pagina de transações
+2021-03-04 16:55:33,096 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-9] Entrando na pagina de transações
+2021-03-04 16:55:38,873 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-2] Entrando na pagina de transações
+2021-03-04 16:58:15,608 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-6] Entrando na pagina de transações
+2021-03-04 16:59:28,454 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-1] Entrando na pagina de transações
+2021-03-04 17:12:04,453 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-4] Entrando na pagina de transações
+2021-03-04 17:12:05,790 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-5] Entrando na pagina de transações
+2021-03-04 17:12:24,815 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-6] Entrando na pagina de transações
+2021-03-04 17:14:09,069 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-1] Entrando na pagina de transações
+2021-03-04 17:14:55,260 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-2] Entrando na pagina de transações
+2021-03-04 17:38:36,404 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-4] Entrando na pagina de transações
+2021-03-04 17:52:48,541 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-7] Entrando na pagina de transações
+2021-03-04 18:02:13,260 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-9] Acesso ao homepage
+2021-03-04 22:05:49,678 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-10] Acesso ao homepage

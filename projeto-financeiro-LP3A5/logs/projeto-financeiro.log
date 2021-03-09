@@ -1,0 +1,306 @@
+2021-03-06 05:17:57,231 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:17:57,234 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:17:57,235 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:18:29,360 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 33.782 seconds (JVM running for 40.836)
+2021-03-06 05:19:15,124 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-1] Acesso ao homepage
+2021-03-06 05:19:22,635 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 05:19:54,529 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-9] Acessando a pagina cadastro de despesas
+2021-03-06 05:20:04,010 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-10] Entrando na função de listar o gastos
+2021-03-06 05:20:06,099 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 05:20:09,906 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-2] Entrando na função de cadastrar receitas
+2021-03-06 05:20:16,433 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-06 05:20:19,988 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de cadastrar despesas
+2021-03-06 05:20:22,669 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 05:20:32,442 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-06 05:28:35,502 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:28:35,503 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:28:35,503 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:28:40,807 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.367 seconds (JVM running for 652.282)
+2021-03-06 05:32:49,007 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:32:49,008 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:32:49,008 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:32:53,739 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.806 seconds (JVM running for 905.215)
+2021-03-06 05:34:11,341 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:34:12,290 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:34:12,291 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:34:16,725 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.703 seconds (JVM running for 988.2)
+2021-03-06 05:34:18,319 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:34:18,320 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:34:18,321 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:34:22,294 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.03 seconds (JVM running for 993.769)
+2021-03-06 05:36:03,090 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:36:03,090 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:36:03,091 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:36:07,812 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.8 seconds (JVM running for 1099.287)
+2021-03-06 05:36:47,275 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:36:47,275 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:36:47,275 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:36:50,947 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.085 seconds (JVM running for 1142.422)
+2021-03-06 05:37:09,402 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:37:09,402 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:37:09,402 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:37:12,681 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 3.338 seconds (JVM running for 1164.156)
+2021-03-06 05:38:12,198 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:38:12,199 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:38:12,199 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:38:15,886 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 3.772 seconds (JVM running for 1227.361)
+2021-03-06 05:39:48,170 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:39:48,170 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:39:48,170 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:39:51,793 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 3.671 seconds (JVM running for 1323.269)
+2021-03-06 05:40:36,651 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:40:36,652 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:40:36,652 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:40:42,670 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.098 seconds (JVM running for 1374.145)
+2021-03-06 05:40:58,072 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:40:58,073 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:40:58,073 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:41:06,064 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 8.077 seconds (JVM running for 1397.539)
+2021-03-06 05:41:08,147 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:41:08,151 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:41:08,152 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:41:14,839 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.889 seconds (JVM running for 1406.314)
+2021-03-06 05:41:21,622 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:41:21,622 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:41:21,622 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:41:27,102 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.617 seconds (JVM running for 1418.577)
+2021-03-06 05:49:54,312 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:49:54,313 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:49:54,313 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:49:58,439 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.18 seconds (JVM running for 1929.915)
+2021-03-06 05:50:27,570 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:50:27,571 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:50:27,571 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:50:32,336 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.816 seconds (JVM running for 1963.812)
+2021-03-06 05:50:59,427 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 05:50:59,427 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 05:50:59,428 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 05:51:06,236 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.855 seconds (JVM running for 1997.712)
+2021-03-06 06:11:04,973 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 06:11:04,973 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 06:11:04,973 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 06:11:09,498 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.626 seconds (JVM running for 3200.974)
+2021-03-06 06:14:10,647 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-06 06:14:14,878 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-5] Entrando na função de cadastrar receitas
+2021-03-06 06:14:18,214 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 06:14:38,243 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-06 07:37:05,602 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 07:37:05,602 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 07:37:05,602 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 07:37:12,329 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.871 seconds (JVM running for 8363.805)
+2021-03-06 07:39:24,870 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 07:39:24,871 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 07:39:24,871 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 07:39:30,228 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.432 seconds (JVM running for 8501.704)
+2021-03-06 07:41:51,752 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-06 07:42:23,853 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de listar o gastos
+2021-03-06 07:52:11,291 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-06 07:52:15,136 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-9] Entrando na função de cadastrar despesas
+2021-03-06 07:52:27,407 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-10] Despesas salvas com sucesso: br.com.projetofinanceiro.model.Despesas@1ebc7a4b
+2021-03-06 07:52:39,332 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 07:52:48,643 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-2] Entrando na função de listar o gastos
+2021-03-06 07:54:21,222 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-5] Acessando a pagina cadastro de despesas
+2021-03-06 08:23:58,738 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Entrando na pagina de transações
+2021-03-06 08:25:10,713 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 08:41:13,370 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 08:41:13,371 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 08:41:13,371 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 08:41:18,858 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.605 seconds (JVM running for 12210.333)
+2021-03-06 08:45:57,963 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 08:45:57,963 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 08:45:57,964 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 08:46:02,596 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.701 seconds (JVM running for 12494.072)
+2021-03-06 08:46:06,154 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 08:46:24,097 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-3] Acessando a pagina cadastro de despesas
+2021-03-06 08:46:33,228 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-4] Entrando na função de listar o gastos
+2021-03-06 08:47:07,612 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 08:49:05,739 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 08:49:05,740 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 08:49:05,740 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 08:49:12,458 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.952 seconds (JVM running for 12683.933)
+2021-03-06 08:49:54,004 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 08:49:54,005 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 08:49:54,005 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 08:49:59,999 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.085 seconds (JVM running for 12731.475)
+2021-03-06 08:56:26,792 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 08:56:26,792 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 08:56:26,793 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 08:56:35,534 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 8.803 seconds (JVM running for 13127.009)
+2021-03-06 09:00:15,794 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:00:15,795 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:00:15,795 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:00:22,208 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.514 seconds (JVM running for 13353.684)
+2021-03-06 09:02:31,212 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:02:31,212 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:02:31,213 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:02:39,361 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 8.238 seconds (JVM running for 13490.837)
+2021-03-06 09:02:39,979 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 09:02:42,085 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-06 09:02:43,066 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-3] Acessando a pagina cadastro de despesas
+2021-03-06 09:02:45,252 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-4] Entrando na função de cadastrar receitas
+2021-03-06 09:02:49,279 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-5] Acessando a pagina cadastro de despesas
+2021-03-06 09:03:31,873 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 09:03:32,565 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-06 09:03:33,101 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-06 09:03:33,490 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-9] Acessando a pagina cadastro de despesas
+2021-03-06 09:03:33,820 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-10] Acessando a pagina cadastro de despesas
+2021-03-06 09:09:13,072 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:09:13,073 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:09:13,073 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:09:17,801 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.804 seconds (JVM running for 13889.277)
+2021-03-06 09:09:23,084 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 09:09:23,922 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-06 09:09:25,882 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-3] Entrando na pagina de transações
+2021-03-06 09:10:05,691 INFO br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-4] Transação salva com sucessobr.com.projetofinanceiro.model.Transacoes@5b2a44d2
+2021-03-06 09:10:31,461 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 09:21:43,746 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:21:43,747 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:21:43,748 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:21:49,815 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.113 seconds (JVM running for 14641.291)
+2021-03-06 09:22:10,097 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:22:10,100 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:22:10,100 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:22:16,005 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.953 seconds (JVM running for 14667.48)
+2021-03-06 09:23:41,342 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:23:41,343 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:23:41,343 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:23:46,669 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.401 seconds (JVM running for 14758.145)
+2021-03-06 09:24:55,373 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:24:55,374 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:24:55,374 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:25:01,787 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.602 seconds (JVM running for 14833.263)
+2021-03-06 09:25:18,556 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:25:18,557 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:25:18,557 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:25:26,191 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.766 seconds (JVM running for 14857.667)
+2021-03-06 09:25:39,768 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:25:39,769 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:25:39,769 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:25:44,737 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.042 seconds (JVM running for 14876.213)
+2021-03-06 09:26:19,718 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:26:19,718 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:26:19,718 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:26:26,488 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.862 seconds (JVM running for 14917.964)
+2021-03-06 09:26:35,392 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:26:35,393 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:26:35,393 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:26:40,666 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.367 seconds (JVM running for 14932.141)
+2021-03-06 09:39:03,730 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:39:03,730 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:39:03,737 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:39:11,419 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.775 seconds (JVM running for 15682.894)
+2021-03-06 09:39:16,798 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:39:16,798 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:39:16,799 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:39:22,142 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.43 seconds (JVM running for 15693.618)
+2021-03-06 09:39:40,854 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:39:40,855 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:39:40,855 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:39:46,895 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.204 seconds (JVM running for 15718.371)
+2021-03-06 09:40:23,210 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:40:23,210 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:40:23,211 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:40:28,526 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.38 seconds (JVM running for 15760.001)
+2021-03-06 09:40:49,401 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:40:49,401 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:40:49,402 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:40:55,323 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.993 seconds (JVM running for 15786.799)
+2021-03-06 09:41:06,478 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:41:06,479 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:41:06,479 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:41:12,284 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.939 seconds (JVM running for 15803.76)
+2021-03-06 09:41:21,181 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:41:21,182 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:41:21,183 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:41:27,691 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.624 seconds (JVM running for 15819.167)
+2021-03-06 09:41:51,097 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:41:51,097 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:41:51,097 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:41:57,003 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.987 seconds (JVM running for 15848.479)
+2021-03-06 09:42:16,441 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:42:16,441 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:42:16,442 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:42:22,855 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.464 seconds (JVM running for 15874.33)
+2021-03-06 09:42:52,347 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:42:52,348 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:42:52,348 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:43:03,326 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 11.109 seconds (JVM running for 15914.801)
+2021-03-06 09:43:12,228 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:43:12,229 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:43:12,230 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:43:19,308 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.166 seconds (JVM running for 15930.783)
+2021-03-06 09:43:59,909 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:43:59,910 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:43:59,910 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:44:07,132 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.297 seconds (JVM running for 15978.608)
+2021-03-06 09:44:23,727 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:44:23,727 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:44:23,728 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:44:29,851 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.168 seconds (JVM running for 16001.327)
+2021-03-06 09:45:14,593 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:45:14,594 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:45:14,594 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:45:19,102 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.61 seconds (JVM running for 16050.577)
+2021-03-06 09:49:44,111 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:49:44,112 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:49:44,112 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:49:48,875 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.806 seconds (JVM running for 16320.35)
+2021-03-06 09:56:14,886 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 09:56:14,887 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 09:56:14,888 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 09:56:22,948 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 8.134 seconds (JVM running for 16714.424)
+2021-03-06 09:56:32,202 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-5] Acessando a pagina cadastro de despesas
+2021-03-06 09:56:35,143 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-6] Entrando na função de cadastrar receitas
+2021-03-06 09:56:37,816 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-06 10:02:54,600 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 10:02:54,600 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 10:02:54,601 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 10:03:00,205 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.67 seconds (JVM running for 17111.681)
+2021-03-06 10:03:06,768 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 10:03:09,684 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-2] Entrando na função de cadastrar despesas
+2021-03-06 10:03:29,438 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Erro ao salvar despesa
+2021-03-06 10:05:29,959 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 10:05:29,959 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 10:05:29,960 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 10:05:37,610 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.748 seconds (JVM running for 17269.086)
+2021-03-06 10:05:37,660 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 10:05:39,649 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-06 10:05:41,894 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Entrando na função de cadastrar despesas
+2021-03-06 10:05:54,924 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-4] Erro ao salvar despesa
+2021-03-06 10:06:30,089 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 10:06:30,090 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 10:06:30,090 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 10:06:37,822 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.832 seconds (JVM running for 17329.298)
+2021-03-06 10:06:41,973 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 10:06:43,851 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-2] Entrando na função de cadastrar receitas
+2021-03-06 10:06:53,494 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-3] Receita salva com sucesso
+2021-03-06 10:07:10,245 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-06 10:07:16,828 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de cadastrar despesas
+2021-03-06 10:07:29,652 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-6] Erro ao salvar despesa
+2021-03-06 10:07:46,458 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-06 10:07:55,523 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-9] Entrando na função de listar o gastos
+2021-03-06 10:07:57,350 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-10] Acessando a pagina cadastro de despesas
+2021-03-06 10:08:08,767 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-06 10:09:02,782 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 10:09:02,782 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 10:09:02,784 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 10:09:10,094 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.449 seconds (JVM running for 17481.57)
+2021-03-06 10:09:10,250 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-1] Entrando na função de cadastrar receitas
+2021-03-06 10:10:36,493 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-5] Receita salva com sucesso
+2021-03-06 10:11:13,602 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-06 10:11:15,934 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-7] Entrando na função de cadastrar despesas
+2021-03-06 10:11:33,006 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-8] Erro ao salvar despesa
+2021-03-06 10:11:55,459 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 10:11:55,459 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 10:11:55,460 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 10:12:11,669 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 16.289 seconds (JVM running for 17663.144)
+2021-03-06 10:12:13,773 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-06 10:12:18,449 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-2] Entrando na função de cadastrar receitas
+2021-03-06 10:12:34,608 INFO br.com.projetofinanceiro.controller.ReceitasController [http-nio-8080-exec-3] Receita salva com sucesso
+2021-03-06 10:12:46,018 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-06 10:12:48,246 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de cadastrar despesas
+2021-03-06 10:12:58,198 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-6] Erro ao salvar despesa
+2021-03-06 10:13:58,181 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12624 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-06 10:13:58,181 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-06 10:13:58,182 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-06 10:14:05,371 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.272 seconds (JVM running for 17776.847)

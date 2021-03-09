@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Receitas</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+<!-- Adicionando JQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+	type="text/javascript"></script>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+	rel="stylesheet" type="text/css" />
+
+
+<style type="text/css">
+table.striped>tbody>tr:nth-child(odd) {
+	background-color: rgba(158, 154, 154, 0.5);
+}
+
+form input[type=submit] {
+	color: white;
+}
+
+table {
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid grey;
+}
+
+table th {
+	background: #eee;
+}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:600px; } */
+}
+
+@media only screen and (max-device-width: 700px) {
+	/* .menu { width:400px; } */
+}
+</style>
+</head>
+<body>
+    
+    <a class="waves-effect waves-light btn" href="/cadastropessoa">Cadastro de Pessoas</a>
+    
+    <div th:each="p : ${pessoaobj}">
+		<div class="row">
+
+			<p>
+				ID: <span th:text="${p.id}"></span>
+			</p>
+			<p>
+				Nome: <span th:text="${p.nome}"></span>
+			</p>
+			<p>
+				Sobrenome: <span th:text="${p.sobrenome}"></span>
+			</p>
+			<p>
+				Idade: <span th:text="${p.idade}"></span>
+			</p>
+
+		</div>
+	</div>
+	
+   
+	<br />
+	<fieldset>
+		<legend>Cadastro de Receitas</legend>
+
+		<div class="row">
+
+
+			<br />
+			<div th:each="m : ${msg}">
+				<span th:text="${m}"></span>
+			</div>
+
+			<br />
+
+			<form th:action="@{/salvarReceita/{idpessoa}(idpessoa=${pessoaobj.id})}" method="post"
+				class="col s12" onsubmit="return validarCampos()? true : false">
+
+				<div class="row">
+					
+
+					<div class="input-field col s6">
+						<label for="salarioMensal" class="active">Salario Mensal:</label> <input placeholder="Informe o seu salario mensal"
+							name="salarioMensal"   class="validate"
+							id="salarioMensal">
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="input-field col s6">
+						<label for="transporteMensal" class="active">Transporte Mensal:</label> <input
+							name="transporteMensal"  id="transporteMensal" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="valeAlimentacao" class="active">Vale Alimentação:</label> <input
+							name="valeAlimentacao"   id="valeAlimentacao" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="outrasValores" class="active">Outros Valores:</label> <input
+							name="outrasValores"  id="outrasValores" class="validate"
+							>
+					</div>
+					
+					<div class="input-field col s6">
+						<label for="descricaoReceita" class="active">Descricao da Receita:</label> <input
+							name="descricaoReceita" id="descricaoReceita"
+							class="validate">
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="input-field col s6">
+						<label for="dataReceita" class="active">Data
+						 Receita:</label> <input type="date" id="dataReceita"
+							class="validate"  name="dataReceita"
+							placeholder="Data Receita">
+					</div>
+
+
+
+				</div>
+
+		<div class="row">
+			<div class="input-field col s6">
+				<input type="submit" value="Salvar"
+					class="waves-effect waves-light btn">
+	
+		
+			</div>
+		</div>
+		</form>
+		
+		</div>
+	</fieldset>
+	<table class="striped">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Salario Mensal</th>
+				<th>Transporte Mensal</th>
+				<th>Vale Alimentacao</th>
+				<th>Outros Valores</th>
+				<th>Descricao Receita</th>
+				<th>Data Receita</th>
+				<th>Editar</th>
+				<th>Excluir</th>
+				
+				
+			</tr>
+		</thead>
+
+		<tr th:each="receitas : ${receita.content}">
+			<td th:text="${receitas.idReceitas}"></td>
+			<td th:text="${receitas.salarioMensal}"></td>
+			<td th:text="${receitas.transporteMensal}"></td>
+			<td th:text="${receitas.valeAlimentacao}"></td>
+			<td th:text="${receitas.outrasValores}"></td>
+			<td th:text="${receitas.descricaoReceita}"></td>
+			<td th:text="${receitas.dataReceita}"></td>
+			
+				
+			<td><a class="waves-effect waves-light btn"
+				th:href="@{/editarReceitas/{idReceitas}(idReceitas=${receitas.idReceitas})}">Editar</a></td>
+							
+         	<td><a class="waves-effect waves-light btn"
+				th:href="@{/excluirReceitas/{idReceitas}(idReceitas=${receitas.idReceitas})}">Excluir</a></td>
+							
+		   
+							
+		</tr>
+
+	</table>
+	
+	
+	<div class="row" style="margin-top: 30px;">
+	<center>
+	
+	<span th:if="${receita.hasPrevious()}">
+	<a th:href="@{/receitaspag(page=${receita.number-1}, size=${receita.size}, nomepesquisa=${nomepesquisa})}">Anterior</a>
+	</span>
+	
+	<th:block th:each="i: ${#numbers.sequence(0, receita.totalPages - 1)}">
+	   <a th:href="@{/receitaspag(page=${i}, size=${receita.size}, nomepesquisa=${nomepesquisa})}">[[ ${i} + 1  ]]</a>
+	</th:block>
+	
+	
+	<span th:if="${receita.hasNext()}">
+	<a th:href="@{/receitaspag(page=${receita.number+1}, size=${receita.size}, nomepesquisa=${nomepesquisa})}">Proximo</a>
+	</span>
+	
+	
+	</center>
+	
+	
+	</div>
+	
+	<script type="text/javascript">
+	
+   
+
+	
+	
+	function validarCampos(){
+		
+		outrasValores = document.getElementById('outrasValores').value;
+		salarioMensal = document.getElementById('salarioMensal').value;
+		transporteMensal = document.getElementById('transporteMensal').value;
+		valeAlimentacao = document.getElementById('valeAlimentacao').value;
+		dataReceita = document.getElementById('dataReceita').value;
+		descricaoReceita = document.getElementById('descricaoDespesa').value;
+		
+		if(outrasValores == ' '){
+			alert('outros valores de luz deve ser informado')
+			return false;
+		}
+		else if (salarioMensal == ' ') {
+			alert('Salario deve ser informado')
+			return false;
+		}
+		else if (valeAlimentacao == ' ') {
+			alert('vale alimentacao deve ser informado')
+			return false;
+		}
+		else if (transporteMensal == ' ') {
+			alert('transporte deve ser informado')
+			return false;
+		}
+		else if (descricaoReceita == ' ') {
+			alert('descricao deve ser informada')
+			return false;
+		}
+		else if (dataReceita == ' ') {
+			alert('data da receita deve ser informada')
+			return false;
+		}
+		
+		
+		return true;
+	}
+	
+	
+	</script>
+	
+	
+	
+	
+
+</body>
+</html>

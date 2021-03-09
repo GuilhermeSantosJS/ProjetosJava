@@ -1,0 +1,8 @@
+2021-03-06 05:19:15,124 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-1] Acesso ao homepage
+2021-03-06 08:23:58,738 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Entrando na pagina de transações
+2021-03-06 09:09:25,882 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-3] Entrando na pagina de transações
+2021-03-06 10:03:29,438 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Erro ao salvar despesa
+2021-03-06 10:05:54,924 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-4] Erro ao salvar despesa
+2021-03-06 10:07:29,652 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-6] Erro ao salvar despesa
+2021-03-06 10:11:33,006 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-8] Erro ao salvar despesa
+2021-03-06 10:12:58,198 ERROR br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-6] Erro ao salvar despesa

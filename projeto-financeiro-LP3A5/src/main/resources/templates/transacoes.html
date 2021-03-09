@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+<meta charset="UTF-8">
+<title>Realizar Transacoes</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+<!-- Adicionando JQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+	type="text/javascript"></script>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+	rel="stylesheet" type="text/css" />
+
+
+<style type="text/css">
+table.striped>tbody>tr:nth-child(odd) {
+	background-color: rgba(158, 154, 154, 0.5);
+}
+
+form input[type=submit] {
+	color: white;
+}
+
+table {
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid grey;
+}
+
+table th {
+	background: #eee;
+}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:600px; } */
+}
+
+@media only screen and (max-device-width: 700px) {
+	/* .menu { width:400px; } */
+}
+</style>
+</head>
+<body>
+	<a class="waves-effect waves-light btn" href="/cadastropessoa">Cadastro
+		de Pessoas</a>
+
+	<div th:each="p : ${pessoaobj}">
+		<div class="row">
+
+			<p>
+				ID: <span th:text="${p.id}"></span>
+			</p>
+			<p>
+				Nome: <span th:text="${p.nome}"></span>
+			</p>
+			<p>
+				Sobrenome: <span th:text="${p.sobrenome}"></span>
+			</p>
+			<p>
+				Idade: <span th:text="${p.idade}"></span>
+			</p>
+
+		</div>
+	</div>
+
+
+
+	<br />
+	<fieldset>
+		<legend>Transacoes</legend>
+
+		<div class="row">
+
+
+			<br />
+			<div th:each="m : ${msg}">
+				<span th:text="${m}"></span>
+			</div>
+
+			<br />
+
+			<form
+				th:action="@{/salvarTransacao/{idpessoa}(idpessoa=${pessoaobj.id})}"
+				method="post" class="col s12"
+				onsubmit="return validarCampos()? true : false">
+
+				<div class="row">
+					<div class="input-field col s6">
+						<label for="valorTransacao" class="active">Valor da
+							Transferencia:</label> <input
+							placeholder="Informe o valor da transferencia"
+							name="valorTransacao" class="validate" id="valorTransacao">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="contaTransacao" class="active">Conta:</label> <input
+							name="contaTransacao" id="contaTransacao" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="cpf" class="active">CPF:</label> <input name="cpf"
+							id="cpf" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="cnpj" class="active">CNPJ:</label> <input name="cnpj"
+							id="cnpj" class="validate">
+					</div>
+
+
+
+					<div class="input-field col s6">
+						<label for="agenciaConta" class="active">Agencia:</label> <input
+							name="agenciaConta" id="agenciaConta" class="validate">
+					</div>
+				</div>
+
+
+				<div class="row">
+					<label for="banco" class="active">Escolha o Banco</label> <select
+						class="browser-default" name="banco" id="banco">
+						<option
+							th:each="b : ${T(br.com.projetofinanceiro.model.Banco).values()}"
+							th:value="${b.valor}" th:text="${b.nome}">
+					</select> <label for="conta" class="active">Escolha o tipo da conta</label>
+					<select class="browser-default" name="conta" id="conta">
+						<option
+							th:each="c : ${T(br.com.projetofinanceiro.model.Conta).values()}"
+							th:value="${c.valor}" th:text="${c.nome}">
+					</select>
+
+					<div class="input-field col s6">
+						<label for="nomeBeneficiario" class="active">Nome
+							Beneficiario:</label> <input name="nomeBeneficiario"
+							id="nomeBeneficiario" class="validate">
+					</div>
+
+
+					<div class="input-field col s6">
+						<label for="descricaoTransacao" class="active">Descrição
+							da Transação:</label> <input name="descricaoTransacao"
+							id="descricaoTransacao" class="validate">
+					</div>
+
+
+					<div class="input-field col s6">
+						<label for="dataTransacao" class="active">Data da
+							Transacao:</label> <input type="date" id="dataTransacao" class="validate"
+							name="dataTransacao" placeholder="Data Transacao">
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="input-field col s6">
+						<input type="submit" value="Salvar"
+							class="waves-effect waves-light btn">
+							
+					</div>
+				</div>
+			</form>
+
+		</div>
+
+		<div class="row" style="margin-top: 30px;">
+			<table class="striped">
+			 
+			 <thead>
+					<tr>
+						<th>ID</th>
+						<th>Valor Transacao</th>
+						<th>Conta Transacao</th>
+						<th>CPF</th>
+						<th>CNPJ</th>
+						<th>Agencia Conta</th>
+						<th>Banco</th>
+						<th>Conta</th>
+						<th>Nome Beneficiario</th>
+						<th>Data Transacao</th>
+					</tr>
+				</thead>
+			 
+			 
+			 
+				<tr th:each="transacoes : ${transacao}">
+				    <td th:text="${transacoes.idTransacao}"></td>
+					<td th:text="${transacoes.valorTransacao}"></td>
+					<td th:text="${transacoes.contaTransacao}"></td>
+					<td th:text="${transacoes.cpf}"></td>
+					<td th:text="${transacoes.cnpj}"></td>
+					<td th:text="${transacoes.agenciaConta}"></td>
+					<td th:text="${transacoes.banco}"></td>
+					<td th:text="${transacoes.conta}"></td>
+					<td th:text="${transacoes.nomeBeneficiario}"></td>
+					<td th:text="${transacoes.dataTransacao}"></td>
+				</tr>
+			</table>
+
+
+<center>
+
+				<span th:if="${transacao.hasPrevious()}"> <a
+					th:href="@{/transacaopag(page=${transacao.number-1}, size=${transacao.size}, nomepesquisa=${nomepesquisa})}">Anterior</a>
+				</span>
+
+				<th:block
+					th:each="i: ${#numbers.sequence(0, transacao.totalPages - 1)}">
+					<a
+						th:href="@{/transacaopag(page=${i}, size=${transacao.size}, nomepesquisa=${nomepesquisa})}">[[
+						${i} + 1 ]]</a>
+				</th:block>
+
+
+				<span th:if="${transacao.hasNext()}"> <a
+					th:href="@{/transacaopag(page=${transacao.number+1}, size=${transacao.size}, nomepesquisa=${nomepesquisa})}">Proximo</a>
+				</span>
+
+
+			</center>
+
+
+
+
+
+
+
+
+		</div>
+
+		<script type="text/javascript">
+	function validarCampos(){
+		
+		valorTransacao = document.getElementById('valorTransacao').value;
+		contaTransacao = document.getElementById('contaTransacao').value;
+		cpf = document.getElementById('cpf').value;
+		cnpj = document.getElementById('cnpj').value;
+		agenciaConta = document.getElementById('agenciaConta').value;
+		nomeBeneficiario = document.getElementById('nomeBeneficario').value;
+		dataTransacao = document.getElementById('dataTransacao').value;
+		descricaoTransacao = document.getElementById('descricaoTransacao').value;
+		
+		
+		if(valorTransacao == ' '){
+			alert('Valor da transacao deve ser informado')
+			return false;
+		}
+		else if (contaTransacao == ' ') {
+			alert('Conta deve ser informada')
+			return false;
+		}
+		else if (cpf == ' ') {
+			alert('cpf deve ser informado')
+			return false;
+		}
+		else if (cnpj == ' ') {
+			alert('cnpj deve ser informado')
+			return false;
+		}
+		else if (agenciaConta == ' ') {
+			alert('agencia deve ser informada')
+			return false;
+		}
+		else if (nomeBeneficiario == ' ') {
+			alert('nome deve ser informado')
+			return false;
+		}
+		else if (dataTransacao == ' ') {
+			alert('data da transacao deve ser informada')
+			return false;
+		}
+		else if (descricaoTransacao == ' ') {
+			alert('descricao da transacao deve ser informada')
+			return false;
+		}
+		
+		
+		return true;
+	}
+	
+	
+	</script>
+
+
+
+
+
+	</fieldset>
+
+</body>
+</html>

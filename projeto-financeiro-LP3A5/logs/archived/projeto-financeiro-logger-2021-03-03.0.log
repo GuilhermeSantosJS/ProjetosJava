@@ -1,0 +1,194 @@
+2021-03-03 02:38:26,102 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 13000 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:38:26,106 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:38:26,111 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:42:14,043 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12344 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:42:14,044 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:42:14,049 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:44:19,622 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 12900 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:44:19,625 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:44:19,625 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:46:51,059 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 6404 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:46:51,063 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:46:51,064 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:50:53,091 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:50:53,097 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:50:53,098 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:51:10,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 18.666 seconds (JVM running for 21.818)
+2021-03-03 02:52:48,791 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:52:48,791 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:52:48,792 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:52:54,486 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.818 seconds (JVM running for 125.6)
+2021-03-03 02:53:10,009 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 02:53:10,009 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 02:53:10,009 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 02:53:16,271 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.349 seconds (JVM running for 147.385)
+2021-03-03 02:53:34,431 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-1] Acesso ao homepage
+2021-03-03 02:53:34,974 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-2] Acesso ao homepage
+2021-03-03 02:53:42,888 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-03 02:54:01,745 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-9] Sucesso ao salvar a pessoa
+2021-03-03 02:57:55,500 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 02:58:05,464 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 02:59:43,250 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-03 03:00:27,047 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 03:00:38,688 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-3] Acessando a pagina cadastro de despesas
+2021-03-03 03:02:06,784 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-03 03:02:12,666 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-9] Acessando a pagina cadastro de despesas
+2021-03-03 03:13:35,694 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:13:35,695 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:13:35,695 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:20:09,019 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:20:09,020 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:20:09,020 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:21:23,450 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:21:23,450 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:21:23,451 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:21:29,571 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.2 seconds (JVM running for 1840.685)
+2021-03-03 03:22:36,674 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:22:36,674 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:22:36,674 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:22:43,596 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.996 seconds (JVM running for 1914.71)
+2021-03-03 03:25:54,598 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:25:54,598 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:25:54,598 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:25:59,881 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.353 seconds (JVM running for 2110.995)
+2021-03-03 03:26:03,954 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:26:03,954 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:26:03,955 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:26:09,607 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.712 seconds (JVM running for 2120.721)
+2021-03-03 03:32:08,019 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:32:08,019 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:32:08,020 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:32:12,931 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.984 seconds (JVM running for 2484.046)
+2021-03-03 03:32:18,672 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:32:18,673 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:32:18,674 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:32:23,343 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.716 seconds (JVM running for 2494.458)
+2021-03-03 03:39:01,007 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:39:01,008 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:39:01,008 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:39:07,297 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 6.355 seconds (JVM running for 2898.411)
+2021-03-03 03:40:38,198 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 03:40:44,911 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-5] editando os emails
+2021-03-03 03:42:27,960 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:42:27,960 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:42:27,961 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:42:31,711 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 3.802 seconds (JVM running for 3102.826)
+2021-03-03 03:43:06,472 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 03:43:07,557 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-2] editando os emails
+2021-03-03 03:45:55,355 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:45:55,356 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:45:55,357 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:46:02,633 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 7.394 seconds (JVM running for 3313.747)
+2021-03-03 03:46:33,343 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:46:33,346 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:46:33,346 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:46:36,871 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 3.581 seconds (JVM running for 3347.985)
+2021-03-03 03:48:43,176 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 03:48:47,410 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-03 03:48:48,480 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-3] editando os telefones
+2021-03-03 03:49:01,135 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 03:49:03,097 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-5] editando os emails
+2021-03-03 03:53:49,570 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:53:49,570 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:53:49,571 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:53:53,950 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.451 seconds (JVM running for 3785.064)
+2021-03-03 03:54:05,033 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 03:54:06,554 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-2] editando os emails
+2021-03-03 03:55:26,488 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 03:55:27,512 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-5] Acessando a pagina cadastro de despesas
+2021-03-03 03:55:29,704 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-6] editando os emails
+2021-03-03 03:55:50,816 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 2684 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 03:55:50,827 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 03:55:50,828 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 03:56:57,435 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-03 03:56:58,310 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-9] Acessando a pagina cadastro de despesas
+2021-03-03 03:56:59,260 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-10] editando os emails
+2021-03-03 03:57:22,066 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 03:57:23,207 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-03 03:58:40,020 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 03:59:00,732 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-5] Acessando a pagina cadastro de despesas
+2021-03-03 03:59:03,681 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-6] editando os emails
+2021-03-03 03:59:30,119 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-03 03:59:31,021 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-03 03:59:33,439 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-9] editando os emails
+2021-03-03 04:03:24,308 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 04:03:24,989 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] Acessando a pagina cadastro de despesas
+2021-03-03 04:03:26,214 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-3] editando os emails
+2021-03-03 04:03:38,086 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 04:03:41,019 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-5] editando os telefones
+2021-03-03 04:04:13,625 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-03 04:04:20,342 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-7] editando os emails
+2021-03-03 04:05:37,881 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-10] editando os emails
+2021-03-03 04:05:39,068 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-1] editando os emails
+2021-03-03 04:05:40,960 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-2] editando os emails
+2021-03-03 04:05:54,094 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-6] editando os emails
+2021-03-03 04:05:59,258 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-8] editando os emails
+2021-03-03 04:06:01,975 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-10] editando os emails
+2021-03-03 04:06:25,016 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-1] editando os emails
+2021-03-03 04:06:30,247 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-3] editando os emails
+2021-03-03 04:07:50,793 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-6] editando os emails
+2021-03-03 04:07:54,843 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-8] editando os emails
+2021-03-03 04:07:55,768 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-9] editando os emails
+2021-03-03 04:07:58,028 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-1] editando os emails
+2021-03-03 04:08:00,019 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-2] editando os emails
+2021-03-03 04:08:14,665 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-3] editando os emails
+2021-03-03 04:08:16,113 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 04:08:17,929 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-5] editando os emails
+2021-03-03 04:08:52,377 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-6] Email enviado e salvo com sucesso
+2021-03-03 04:13:43,014 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 14288 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 04:13:43,015 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 04:13:43,015 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 04:13:45,962 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 2.992 seconds (JVM running for 4977.077)
+2021-03-03 04:13:59,388 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-1] editando os emails
+2021-03-03 04:14:04,383 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-2] Email removido com sucesso
+2021-03-03 04:14:17,187 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-4] editando os emails
+2021-03-03 04:14:45,035 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-5] Email enviado e salvo com sucesso
+2021-03-03 04:15:04,864 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-6] Acessando a pagina cadastro de despesas
+2021-03-03 04:19:13,273 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-9] Acessando a pagina cadastro de despesas
+2021-03-03 04:19:47,095 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-10] Acessando a pagina cadastro de despesas
+2021-03-03 04:19:49,110 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-1] Acessando a pagina cadastro de despesas
+2021-03-03 04:20:00,184 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-3] Acessando a pagina cadastro de despesas
+2021-03-03 04:20:08,770 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-2] editando os telefones
+2021-03-03 04:20:09,814 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 04:20:12,249 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-5] editando os emails
+2021-03-03 04:20:13,915 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-03 04:20:39,304 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-8] Entrando na pagina de transações
+2021-03-03 04:20:51,249 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-10] Entrando na função de cadastrar despesas
+2021-03-03 04:20:54,954 WARN br.com.projetofinanceiro.controller.TransacaoController [http-nio-8080-exec-1] Entrando na pagina de transações
+2021-03-03 04:20:56,898 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Entrando na função de cadastrar despesas
+2021-03-03 04:21:01,516 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-4] Acessando a pagina cadastro de despesas
+2021-03-03 04:40:26,039 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-10] Acessando a pagina cadastro de despesas
+2021-03-03 04:40:29,744 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-1] Entrando na função de cadastrar despesas
+2021-03-03 04:41:15,637 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Entrando na função de cadastrar despesas
+2021-03-03 04:41:16,420 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-2] Entrando na função de cadastrar despesas
+2021-03-03 04:50:13,441 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de cadastrar despesas
+2021-03-03 04:50:14,449 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-6] Entrando na função de cadastrar despesas
+2021-03-03 04:50:27,550 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-03 04:50:28,522 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-8] Acessando a pagina cadastro de despesas
+2021-03-03 04:50:29,816 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-9] Entrando na função de cadastrar despesas
+2021-03-03 04:51:54,709 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-1] Entrando na função de cadastrar despesas
+2021-03-03 04:52:37,761 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Despesas salvas com sucesso: br.com.projetofinanceiro.model.Despesas@4f9ccd2f
+2021-03-03 04:53:15,652 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-4] Entrando na função de cadastrar despesas
+2021-03-03 04:53:16,770 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de cadastrar despesas
+2021-03-03 04:53:17,369 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-6] Entrando na função de cadastrar despesas
+2021-03-03 04:53:29,541 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-7] Entrando na função de cadastrar despesas
+2021-03-03 04:54:02,062 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-8] Entrando na função de cadastrar despesas
+2021-03-03 04:54:14,671 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-9] Entrando na função de cadastrar despesas
+2021-03-03 04:54:41,645 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-10] Entrando na função de cadastrar despesas
+2021-03-03 04:54:43,572 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-1] Entrando na função de cadastrar despesas
+2021-03-03 04:55:18,507 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-3] Entrando na função de cadastrar despesas
+2021-03-03 04:55:47,420 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-2] Entrando na função de cadastrar despesas
+2021-03-03 04:56:04,287 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-4] Editando as despesas
+2021-03-03 04:56:20,250 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-5] Entrando na função de listar o gastos
+2021-03-03 04:56:34,435 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-7] Entrando na função de listar o gastos
+2021-03-03 04:56:39,614 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-8] Entrando na função de cadastrar despesas
+2021-03-03 05:05:41,944 INFO br.com.projetofinanceiro.controller.DespesasController [http-nio-8080-exec-1] Entrando na função de cadastrar despesas
+2021-03-03 17:14:32,653 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 15.0.1 on DESKTOP-5LSHH6H with PID 5716 (C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot\target\classes started by Pichau in C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-boot)
+2021-03-03 17:14:32,707 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-03 17:14:32,712 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-03 17:14:44,804 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 12.955 seconds (JVM running for 15.304)
+2021-03-03 17:14:59,360 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-1] Acesso ao homepage
+2021-03-03 17:14:59,689 WARN br.com.projetofinanceiro.controller.IndexController [http-nio-8080-exec-2] Acesso ao homepage
+2021-03-03 17:15:06,682 INFO br.com.projetofinanceiro.controller.PessoaController [http-nio-8080-exec-7] Acessando a pagina cadastro de despesas
+2021-03-03 17:18:10,052 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-1] editando os emails
+2021-03-03 17:18:59,373 INFO br.com.projetofinanceiro.controller.EmailController [http-nio-8080-exec-3] editando os emails

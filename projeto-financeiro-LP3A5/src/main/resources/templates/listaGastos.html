@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+<meta charset="UTF-8">
+<title>Lista Gastos</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+<!-- Adicionando JQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+	type="text/javascript"></script>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+	rel="stylesheet" type="text/css" />
+
+
+<style type="text/css">
+table.striped>tbody>tr:nth-child(odd) {
+	background-color: rgba(158, 154, 154, 0.5);
+}
+
+form input[type=submit] {
+	color: white;
+}
+
+table {
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid grey;
+}
+
+table th {
+	background: #eee;
+}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:600px; } */
+}
+
+@media only screen and (max-device-width: 700px) {
+	/* .menu { width:400px; } */
+}
+</style>
+</head>
+<body>
+    
+	
+	<a class="waves-effect waves-light btn" href="/cadastropessoa">Cadastro de Pessoas</a>
+	
+
+	<br />
+	<fieldset>
+		<legend>Lista Gastos</legend>
+
+		<div class="row">
+
+<table class="striped">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Total Gastos</th>
+			</tr>
+		</thead>
+
+		<tr th:each="despesas : ${despesa.content}">
+		   <td  th:text="${despesas.idDespesa}"></td>
+		   <td  th:text="${despesas.totalGastos}"></td>
+			
+		</tr>
+
+	</table>
+	
+	<center>
+
+			<span th:if="${despesa.hasPrevious()}"> <a
+				th:href="@{/despesaspag(page=${despesa.number-1}, size=${despesa.size}, nomepesquisa=${nomepesquisa})}">Anterior</a>
+			</span>
+
+			<th:block
+				th:each="i: ${#numbers.sequence(0, despesa.totalPages - 1)}">
+				<a
+					th:href="@{/despesaspag(page=${i}, size=${despesa.size}, nomepesquisa=${nomepesquisa})}">[[
+					${i} + 1 ]]</a>
+			</th:block>
+
+
+			<span th:if="${despesa.hasNext()}"> <a
+				th:href="@{/despesaspag(page=${despesa.number+1}, size=${despesa.size}, nomepesquisa=${nomepesquisa})}">Proximo</a>
+			</span>
+			
+		</center>
+
+
+
+			
+    	</div>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Despesas</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+<!-- Adicionando JQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+	type="text/javascript"></script>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+	rel="stylesheet" type="text/css" />
+
+
+<style type="text/css">
+table.striped>tbody>tr:nth-child(odd) {
+	background-color: rgba(158, 154, 154, 0.5);
+}
+
+form input[type=submit] {
+	color: white;
+}
+
+table {
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid grey;
+}
+
+table th {
+	background: #eee;
+}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:600px; } */
+}
+
+@media only screen and (max-device-width: 700px) {
+	/* .menu { width:400px; } */
+}
+</style>
+</head>
+<body>
+	<a class="waves-effect waves-light btn" href="/cadastropessoa">Cadastro
+		de Pessoas</a>
+	<br />
+	
+	<div th:each="p : ${pessoaobj}">
+		<div class="row">
+
+			<p>
+				ID: <span th:text="${p.id}"></span>
+			</p>
+			<p>
+				Nome: <span th:text="${p.nome}"></span>
+			</p>
+			<p>
+				Sobrenome: <span th:text="${p.sobrenome}"></span>
+			</p>
+			<p>
+				Idade: <span th:text="${p.idade}"></span>
+			</p>
+
+		</div>
+	</div>
+	
+	
+	
+	<fieldset>
+		<legend>Cadastro de Despesas</legend>
+
+		<div class="row">
+
+
+			<br />
+			<div th:each="m : ${msg}">
+				<span th:text="${m}"></span>
+			</div>
+
+			<br />
+
+			<form th:action="@{/salvarDespesa/{idpessoa}(idpessoa=${pessoaobj.id})}" method="post"
+				class="col s12" onsubmit="return validarCampos()? true : false">
+
+				<div class="row">
+				
+				<div class="input-field col s6">
+						<label for="descricaoDespesa" class="active">Descricao Despesa:</label> <input
+							name="descricaoDespesa" id="descricaoDespesa" class="validate">
+					</div>
+				
+					<div class="input-field col s6">
+						<label for="contaLuz" class="active">Conta de Luz:</label> <input
+							name="contaLuz" id="contaLuz" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="contaAgua" class="active">Conta de Agua:</label> <input
+							name="contaAgua" id="contaAgua" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="moradiaDespesa" class="active">Aluguel:</label> <input
+							name="moradiaDespesa" id="moradiaDespesa"
+							class="validate">
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="input-field col s6">
+						<label for="alimentacaoDespesa" class="active">Alimentacao:</label>
+						<input name="alimentacaoDespesa" id="alimentacaoDespesa"
+							class="validate">
+					</div>
+
+
+					<div class="input-field col s6">
+						<label for="internetDespesa" class="active">Internet:</label> <input
+							name="internetDespesa" id="internetDespesa"
+							class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="outrosGastos" class="active">Outros Gastos:</label> <input
+							name="outrosGastos" id="outrosGastos" class="validate">
+					</div>
+
+					<div class="input-field col s6">
+						<label for="dataDespesa" class="active">Data Despesa:</label> <input
+							type="date" id="dataDespesa" class="validate"
+							name="dataDespesa" placeholder="Data Despesa">
+					</div>
+
+
+
+				</div>
+
+				<div class="row">
+					<div class="input-field col s6">
+						<input type="submit" value="Salvar"
+							class="waves-effect waves-light btn">
+
+						
+
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</fieldset>
+	
+	<table class="striped">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Conta de Luz</th>
+				<th>Conta de Agua</th>
+				<th>Aluguel</th>
+				<th>Alimentacao</th>
+				<th>Internet</th>
+				<th>Outros Gastos</th>
+				<th>Editar</th>
+				<th>Excluir</th>
+			</tr>
+		</thead>
+
+		<tr th:each="despesas : ${despesa}">
+			<td th:text="${despesas.idDespesa}"></td>
+			<td th:text="${despesas.contaLuz}"></td>
+			<td th:text="${despesas.contaAgua}"></td>
+			<td th:text="${despesas.moradiaDespesa}"></td>
+			<td th:text="${despesas.alimentacaoDespesa}"></td>
+			<td th:text="${despesas.internetDespesa}"></td>
+			<td th:text="${despesas.outrosGastos}"></td>
+			
+				
+			<td><a class="waves-effect waves-light btn"
+							th:href="@{/editarDespesa/{idDespesa}(idDespesa=${despesas.idDespesa})}">Editar</a></td>
+							
+         	<td><a class="waves-effect waves-light btn"
+							th:href="@{/excluirDespesa/{idDespesa}(idDespesa=${despesas.idDespesa})}">Excluir</a></td>
+							
+		</tr>
+
+	</table>
+
+	<div class="row" style="margin-top: 30px;">
+	<center>
+	
+	<span th:if="${despesa.hasPrevious()}">
+	<a th:href="@{/despesaspag(page=${despesas.number-1}, size=${despesa.size}, nomepesquisa=${nomepesquisa})}">Anterior</a>
+	</span>
+	
+	<th:block th:each="i: ${#numbers.sequence(0, despesa.totalPages - 1)}">
+	   <a th:href="@{/despesaspag(page=${i}, size=${despesa.size}, nomepesquisa=${nomepesquisa})}">[[ ${i} + 1  ]]</a>
+	</th:block>
+	
+	
+	<span th:if="${despesa.hasNext()}">
+	<a th:href="@{/despesaspag(page=${despesa.number+1}, size=${despesa.size}, nomepesquisa=${nomepesquisa})}">Proximo</a>
+	</span>
+	
+	
+	</center>
+	
+	
+	</div>
+	
+	
+	<script type="text/javascript">
+	function validarCampos(){
+		
+		contaLuz = document.getElementById('contaLuz').value;
+		contaAgua = document.getElementById('contaAgua').value;
+		alimentacaoDespesa = document.getElementById('alimentacaoDespesa').value;
+		moradiaDespesa = document.getElementById('moradiaDespesa').value;
+		internetDespesa = document.getElementById('internetDespesa').value;
+		outrosGastos = document.getElementById('outrosGastos').value;
+		dataDespesa = document.getElementById('dataDespesa').value;
+		descricaoDespesa = document.getElementById('descricaoDespesa').value;
+		
+		if(contaLuz == ' '){
+			alert('Conta de luz deve ser informada')
+			return false;
+		}
+		else if (contaAgua == ' ') {
+			alert('Conta de agua deve ser informada')
+			return false;
+		}
+		else if (alimentacaoDespesa == ' ') {
+			alert('alimentacao deve ser informada')
+			return false;
+		}
+		else if (moradiaDespesa == ' ') {
+			alert('Aluguel deve ser informado')
+			return false;
+		}
+		else if (internetDespesa == ' ') {
+			alert('internet deve ser informada')
+			return false;
+		}
+		else if (descricaoDespesa == ' ') {
+			alert('descricao deve ser informada')
+			return false;
+		}
+		else if (outrosGastos == ' ') {
+			alert('outros gastos deve ser informado')
+			return false;
+		}
+		
+		
+		return true;
+	}
+	
+	
+	</script>
+	
+	
+</body>
+</html>

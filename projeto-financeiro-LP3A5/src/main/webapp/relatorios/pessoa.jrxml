@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="pessoa" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6eff483f-6215-4ca5-9d79-44bf480dddad">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Coleção de objetos spring boot"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="cidade" class="java.lang.String">
+		<fieldDescription><![CDATA[cidade]]></fieldDescription>
+	</field>
+	<field name="bairro" class="java.lang.String">
+		<fieldDescription><![CDATA[bairro]]></fieldDescription>
+	</field>
+	<field name="ibge" class="java.lang.String">
+		<fieldDescription><![CDATA[ibge]]></fieldDescription>
+	</field>
+	<field name="nome" class="java.lang.String">
+		<fieldDescription><![CDATA[nome]]></fieldDescription>
+	</field>
+	<field name="telefones" class="java.util.List">
+		<fieldDescription><![CDATA[telefones]]></fieldDescription>
+	</field>
+	<field name="cep" class="java.lang.String">
+		<fieldDescription><![CDATA[cep]]></fieldDescription>
+	</field>
+	<field name="idade" class="java.lang.Integer">
+		<fieldDescription><![CDATA[idade]]></fieldDescription>
+	</field>
+	<field name="uf" class="java.lang.String">
+		<fieldDescription><![CDATA[uf]]></fieldDescription>
+	</field>
+	<field name="sexopessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[sexopessoa]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="sobrenome" class="java.lang.String">
+		<fieldDescription><![CDATA[sobrenome]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="rua" class="java.lang.String">
+		<fieldDescription><![CDATA[rua]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="50" y="20" width="461" height="51" uuid="50d8123e-f11f-438d-a40f-fca6ac65527f"/>
+				<textElement textAlignment="Center">
+					<font size="30"/>
+				</textElement>
+				<text><![CDATA[Relatorio de Pessoas]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="-20" y="1" width="171" height="21" uuid="017ec045-ddda-4b02-96ef-29024575b520"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-20" y="22" width="171" height="21" uuid="3a61b299-cf5c-4eed-8c3c-cb2ac4854131"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[$F{id}]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="1" width="229" height="21" uuid="4ba88286-63ec-4616-a56a-13c5d385042b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="22" width="229" height="21" uuid="54d96d13-fd1b-4217-8b2d-f3f77978a35e"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[$F{nome}]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="1" width="195" height="21" uuid="2df5535e-a6a0-488f-986e-abed7f954d50"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Cidade]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="22" width="195" height="21" uuid="15fc95f8-93d3-4b7e-acb5-7faa52bb50d0"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[$F{cidade}]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+</jasperReport>
